@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+  text-align: center;
+   display: inline-block;
+   width: 100%;
+   justify-content: space-around;
+}
+
+section{
+    border: 2px solid black;
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin:1% ;
+
+    background-color: grey;
+}
+h2{
+  float: right;
+  border: 2px solid black;
+  padding: 1% 7% 1% 7%;
+    
+}
+p{
+    clear: both;
+}
+.box1 h2{
+    background-color: pink;
+}
+.box2 h2{
+    background-color: palegoldenrod;
+}
+.box3 h2{
+background-color:orange;
+}
+@media (min-width:992px){
+    section{
+        width: 30%;
+    }
+    
+}
+
+@media (min-width:768px)and (max-width:991px)
+{
+    .box1{
+        width: 47%;
+    }
+    .box2{
+        width: 47%;
+    }
+    .box3{
+        width: 97%;
+    }
+}
+@media(max-width:767px)
+{
+    section{
+        width: 97%;
+    }
+}
